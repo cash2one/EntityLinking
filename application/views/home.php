@@ -1,3 +1,5 @@
+<body>
+
 <script src="<?= base_url('js/countLike.js') ?>"></script>
 
 <div id="loginbox">
@@ -20,3 +22,4 @@
     </form> 
 </div>
 
+</body>
