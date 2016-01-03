@@ -43,6 +43,8 @@ else
 	echo "need param: q!";
 
 }
+
+
 function nerTagger($text)
 {
 	
