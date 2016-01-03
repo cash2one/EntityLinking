@@ -10,7 +10,7 @@
         <div class="control-group">
             <div class="controls">
                 <div class="main_input_box">
-                    <textarea id="q" name="q" type="text" style="height:180px; width:100%;">First documented in the 13th century, Berlin was the capital of the Kingdom of Prussia (1701–1918), the German Empire (1871–1918), the Weimar Republic (1919–33) and the Third Reich (1933–45). Berlin in the 1920s was the third largest municipality in the world. After World War II, the city became divided into East Berlin. Ayn_Rand, Allan_Dwan, Actrius,Algeria, Altruism, Alabama, Anarchism, Albedo
+                    <textarea id="q" name="q" type="text" style="height:180px; width:100%;">First documented in the 13th century, Berlin was the capital of the Kingdom of Prussia (1701–1918), the German Empire (1871–1918), the Weimar Republic (1919–33) and the Third Reich (1933–45). Berlin in the 1920s was the third largest municipality in the world. After World War II, the city became divided into East Berlin. 
                     </textarea>
                 </div>
             </div>

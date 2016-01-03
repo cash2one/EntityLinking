@@ -6,7 +6,7 @@ $(function(){
     var getEntities = function(query){
 		$.ajax({
             //here should modify url according to jianmin's url
-            url: "http://172.31.19.37/test.php?q=" + query + "&callback=?",
+            url: "http://172.31.222.119/ELER/ner/api.php?q=" + query + "&callback=?",
 			type: "GET",
 			dataType: "jsonp",			
 			success: function(data) {
@@ -15,6 +15,7 @@ $(function(){
                 var highlight = new Array();
                 for(var property in data)
                 {
+                    console.log("jianmin data:" + property + "\n");
                     highlight.push(property);
                     highlightWords[property] = data[property];
                 }
@@ -29,7 +30,7 @@ $(function(){
             error: function(data){
 				var output = '';
 				for(var property in data){
-					output += property + ':' + data[property] + ';';
+					output += property + ':' + data[property] + ';\n';
 				}
 				console.log('[log] getEntities error information is:' + output);	
 			}
